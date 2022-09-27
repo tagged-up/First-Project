@@ -1,0 +1,59 @@
+body {
+	background-color: hsl(212, 45%, 89%);
+}
+
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+.team-content {
+	width: 190%;
+	max-width: 220px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	align-items: center;
+	gap: 2rem;
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.box {
+	padding: 12px;
+	background: #fff;
+	border-radius: 12px;
+}
+
+.box h3 {
+	font-size: 15px;
+	font-family:'Space Grotesk', sans-serif;
+	color: hsl(218, 44%, 22%);
+}
+
+.box p {
+	font-size: 12px;
+	font-family:'Space Grotesk', sans-serif;
+	color: hsl(0, 0%, 64%);
+}
+
+
+.team-content img{
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+
+@media(max-width: 375px) {
+	.team {
+		width: 100%;
+		height: auto;
+		padding: 90px 2%;
+}
+
+
+
+

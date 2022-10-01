@@ -15,7 +15,7 @@
 <section class="team">
 	<div class="team-content">
 		<div class="box">
-			<img src="qrcode.png">
+			<img src="qrcode.png" alt="qr code">
 			<h3>Improve your front-end<br>skills by building projects</h3>
 			<p>Scan the QR code to visit Frontend<br>Mentor and take your coding skills to<br>the next level</p>
 	</div>
